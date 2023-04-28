@@ -519,3 +519,19 @@ nav {
         width: 80%;
     }
 }
+
+@media (max-width: 380px) {
+    .main-container{
+        margin: auto;
+    }
+    .main-section {
+        height: 120vh;
+    }
+    .about-section{
+       height: 100vh;
+    }
+
+    .slogan-section{
+        height: 50vh;
+    }
+}
