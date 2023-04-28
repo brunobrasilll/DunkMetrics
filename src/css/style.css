@@ -89,6 +89,7 @@ nav {
     .nav-list.active{
         transform: translateX(0);
     }
+    
     .main-container img{
         width: 90%;
     }
@@ -446,30 +447,15 @@ nav {
     body{
         overflow-x: hidden;
     }
-    .nav-list{
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 100vw;
-        height: 92vh;
-        background: #23232e;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
+
+    .main-container h1{
+        font-size: 32px;
     }
 
-    .nav-list li{
-        margin-left: 0;
-        opacity: 0;
+    .main-container h4{
+        font-size: 20px;
     }
-    .mobile-menu {
-        display: block;
-    }
-    .nav-list.active{
-        transform: translateX(0);
-    }
-    
+
     .section2-container{
      flex-direction: column;
      width: 90%;
@@ -480,6 +466,18 @@ nav {
 
     .section-2{
         height: 60%;
+    }
+
+    .section-2 h3{
+        font-size: 40px;
+    }
+
+    .section-3 h3{
+        font-size: 40px;
+    }
+
+    .about-text h3{
+        font-size: 40px;
     }
 
     .section3-container{
@@ -504,7 +502,7 @@ nav {
     }
 
     .about-section{
-        height: 80vh;
+        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -518,9 +516,21 @@ nav {
     .form{
         width: 80%;
     }
+
+    .slogan-section{
+        height: 40vh;
+    }
+    .contact-section{
+        height: 90vh;
+    }
 }
 
 @media (max-width: 380px) {
+    
+    body{
+        overflow-x: hidden;
+    }
+    
     .main-container{
         margin: auto;
     }
